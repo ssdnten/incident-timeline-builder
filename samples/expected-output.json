@@ -1,0 +1,33 @@
+{
+  "events": [
+    {
+      "timestamp": "2026-01-01T00:00:00Z",
+      "source": "auth",
+      "event_id": "1",
+      "message": "Repeated failed login",
+      "origins": [
+        "auth.csv:2"
+      ]
+    },
+    {
+      "timestamp": "2026-01-01T00:00:30Z",
+      "source": "endpoint",
+      "event_id": "1",
+      "message": "Configuration file changed",
+      "origins": [
+        "endpoint.csv:2"
+      ]
+    },
+    {
+      "timestamp": "2026-01-01T00:01:00Z",
+      "source": "auth",
+      "event_id": "2",
+      "message": "Successful login",
+      "origins": [
+        "auth.csv:3",
+        "endpoint.csv:3"
+      ]
+    }
+  ],
+  "duplicates_removed": 1
+}

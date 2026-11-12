@@ -1,0 +1,3 @@
+timestamp,source,event_id,message
+2026-01-01T05:00:00+05:00,auth,1,Repeated failed login
+2026-01-01T00:01:00Z,auth,2,Successful login
